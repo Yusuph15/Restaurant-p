@@ -28,4 +28,9 @@ header
         text-decoration: none;
         padding: 5px 20px;
         font-size: 15px;
+        font-family: sans-serif;
     }     
+    .heading{
+            font-family: monospace;
+            font-size: medium;
+    }
