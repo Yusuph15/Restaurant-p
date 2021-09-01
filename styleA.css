@@ -5,8 +5,8 @@
 
 header
     {
-        background-image:url(Pictures/R8.jpg);
-        height: 100vh;
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) ,url(Pictures/R8.jpg);
+        height:100vh ;
         background-size: cover;
         background-position: center;
     }
@@ -15,11 +15,14 @@ header
     {
        float: right;
        list-style: none;
+       margin-top: 30px;
+
     }
 
 .M-nav li
      {
          display: inline-block;
+
      }  
 
 .M-nav li a
@@ -29,8 +32,34 @@ header
         padding: 5px 20px;
         font-size: 15px;
         font-family: sans-serif;
-    }     
-    .heading{
+    }
+    
+.M-nav li.active a
+    {
+        border: 1px solid white;
+    }   
+
+.M-nav li a:hover
+    {
+        border: 1px solid white;
+
+    } 
+    
+    .logo img
+        {
+            width: 150px;
+            height: auto;
+            float: left;
+        }
+
+    .body
+        {
             font-family: monospace;
             font-size: medium;
-    }
+        }
+
+    .row
+        {
+            max-width: 1200px;
+            margin: auto;
+        }
